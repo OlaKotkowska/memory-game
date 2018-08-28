@@ -3,8 +3,8 @@ This is a simple game built to test a users memory. Game ist build in HTML5, CSS
 
 Instructions:
 
-Remember cards
-Click on a card 
+Remember cards,
+Click on a card,
 Match cards properly with less moves and in faster time
 
 
