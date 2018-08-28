@@ -7,4 +7,8 @@ Remember cards,
 Click on a card,
 Match cards properly with less moves and in faster time
 
+Demo:
+
+ https://olakotkowska.github.io/memory-game/
+
 
