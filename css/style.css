@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+div{
+  flex-basis: 15%;
+  flex-grow: 1;
+  height: 33.33vh;
+  border: 4px solid white;
+
+}
+.hoverDiv:hover{
+  transition-duration:0.3s;
+  background-color: rgb(15, 30, 62);
+}
+@media (orientation: portrait) {
+    div {
+        flex-basis: 30%;
+        height: 16.66vh;
+    }
+}
+.gameScore{
+  height: 30px;
+  width: 30px;
+  border: 1px solid red;
+}
+
+.airplane {
+
+    background-image: url(../images/airplane.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.animal{
+    background-image: url(../images/animal.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.apple {
+    background-image: url(../images/apple.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.crown {
+    background-image: url(../images/crown.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.eye {
+    background-image: url(../images/eye.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.heart {
+      background-image: url(../images/heart.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+}
+
+.home {
+    background-image: url(../images/home.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.star {
+    background-image: url(../images/star.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.world {
+    background-image: url(../images/world.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.off {
+    background-image:none;
+    background-color: #eee;
+} /*wyłączyć element*/
+
+.hidden {
+    background-image:none;
+    transition-duration:2s;
+    background-color: rgb(5, 10, 20);
+}/* ukrycie elementu*/
